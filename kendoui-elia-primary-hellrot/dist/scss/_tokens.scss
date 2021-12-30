@@ -1,0 +1,530 @@
+// Compatible with @progress/kendo-theme-bootstrap v.4.x.x
+
+$enable-gradients: true;
+
+$uux-notification-error-text: linear-gradient(180deg, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.48) 100%), #dc3545;
+$uux-notification-error-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.72) 0%, rgba(255, 255, 255, 0.72) 100%), #dc3545;
+$uux-component-border: #dee2e6;
+$uux-black: #000000;
+$uux-base-text-8: rgba(37, 137, 152, 0.08);
+$uux-gray-600: #6c757d;
+$uux-notification-info-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.72) 0%, rgba(255, 255, 255, 0.72) 100%), #0dcaf0;
+$uux-primarycolor-8: rgba(231, 84, 32, 0.08);
+$uux-notification-warning-text: linear-gradient(180deg, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.48) 100%), #ffc107;
+$uux-notification-info-border: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 100%), #0dcaf0;
+$uux-black-4: rgba(0, 0, 0, 0.04);
+$uux-text-color: #495057;
+$uux-light: #f8f9fa;
+$uux-tertiary: #258998;
+$uux-hovered-bg: #ced3db;
+$uux-bg-color: #ffffff;
+$uux-black-8: rgba(0, 0, 0, 0.08);
+$uux-primarycolor-16: rgba(231, 84, 32, 0.16);
+$uux-gray-500: #adb5bd;
+$uux-link-hover: #c4471b;
+$uux-notification-warning-border: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 100%), #ffc107;
+$uux-primarycolor-12: rgba(231, 84, 32, 0.12);
+$uux-notification-warning-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.72) 0%, rgba(255, 255, 255, 0.72) 100%), #ffc107;
+$uux-gray-200: #e9ecef;
+$uux-primarycolor-20: rgba(231, 84, 32, 0.2);
+$uux-base-bg: #e4e7eb;
+$uux-gray-400: #ced4da;
+$uux-notification-success-border: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 100%), #198754;
+$uux-gray-800: #343a40;
+$uux-base-text-16: rgba(37, 137, 152, 0.16);
+$uux-gray-900-33: rgba(33, 37, 41, 0.33);
+$uux-error-50: rgba(153, 0, 53, 0.5);
+$uux-base-text: #212529;
+$uux-notification-success-bg: linear-gradient(180deg, rgba(255, 255, 255, 0.72) 0%, rgba(255, 255, 255, 0.72) 100%), #198754;
+$uux-secondary-text: #258998;
+$uux-primarycolor-25: rgba(231, 84, 32, 0.25);
+$uux-inputborder-focused: #f3a98f;
+$uux-base-text-12: rgba(37, 137, 152, 0.12);
+$uux-primarycolor-50: rgba(231, 84, 32, 0.5);
+$uux-dark: #212529;
+$uux-primary: #e75420;
+$uux-notification-success-text: linear-gradient(180deg, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.48) 100%), #198754;
+$uux-hovered-border: #c7cdd5;
+$uux-timepicker-hover: #f6f6f6;
+$uux-notification-info-text: linear-gradient(180deg, rgba(0, 0, 0, 0.48) 0%, rgba(0, 0, 0, 0.48) 100%), #0dcaf0;
+$uux-notification-error-border: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 100%), #dc3545;
+$uux-base-border: #e4e7eb;
+$uux-scheduler-event-bg: #f0801a;
+$uux-gray-100: #f8f9fa;
+$uux-gray-300: #dee2e6;
+$uux-component-text-white: #ffffff;
+$uux-base-text-20: rgba(37, 137, 152, 0.2);
+$uux-base-text-24: rgba(37, 137, 152, 0.24);
+$uux-error-8: rgba(153, 0, 53, 0.08);
+$uux-info-24: rgba(37, 137, 152, 0.24);
+$uux-info: #258998;
+$uux-success: #94bf36;
+$uux-info-30: rgba(37, 137, 152, 0.3);
+$uux-info-50: rgba(37, 137, 152, 0.5);
+$uux-primary-button-border: #e75420;
+$uux-base-text-30: rgba(37, 137, 152, 0.3);
+$uux-secondary-button-hovered-bg: #ced3db;
+$uux-primary-button-bg: #e75420;
+$uux-secondary-button-border: #e4e7eb;
+$uux-primary-button-active-bg: #bb441a;
+$uux-error-30: rgba(153, 0, 53, 0.3);
+$uux-primary-button-hovered-bg: #c4471b;
+$uux-info-8: rgba(37, 137, 152, 0.08);
+$uux-secondary-button-hover-border: #c7cdd5;
+$uux-secondary-button-focus-border: rgba(228, 231, 235, 0.5);
+$uux-calendar-body-overlay: linear-gradient(180deg, rgba(255, 255, 255, 0.0001) 0%, #ffffff 100%);
+$uux-grid-sorted-rows-and-columns: rgba(0, 0, 0, 0.02);
+$uux-base-text-65: rgba(37, 137, 152, 0.65);
+$uux-error: #990035;
+$uux-calendar-navigation-overlay: linear-gradient(180deg, #f8f9fa 0%, rgba(255, 255, 255, 0.0001) 52.08%, #f8f9fa 100%);
+$uux-primary-button-active-border: #bb441a;
+$uux-base-text-60: rgba(37, 137, 152, 0.6);
+$uux-secondary-button-active-border: #bfc6d0;
+$uux-timepicker-navigation-overlay: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.0001) 52.08%, #ffffff 100%);
+$uux-secondary-button-bg: #e4e7eb;
+$uux-primary-button-hover-border: #c4471b;
+$uux-base-text-50: rgba(37, 137, 152, 0.5);
+$uux-error-24: rgba(153, 0, 53, 0.24);
+$uux-info-16: rgba(37, 137, 152, 0.16);
+$uux-warning-24: rgba(255, 204, 0, 0.24);
+$uux-grid-cell-alternate: rgba(0, 0, 0, 0.05);
+$uux-secondary-button-active-bg: #c7cdd5;
+$uux-series-c: #6aa9a0;
+$uux-error-16: rgba(153, 0, 53, 0.16);
+$uux-series-e: #ffcc00;
+$uux-warning-8: rgba(255, 204, 0, 0.08);
+$uux-success-16: rgba(148, 191, 54, 0.16);
+$uux-series-d: #94bf36;
+$uux-series-b: #258998;
+$uux-warning-30: rgba(255, 204, 0, 0.3);
+$uux-warning-50: rgba(255, 204, 0, 0.5);
+$uux-warning-16: rgba(255, 204, 0, 0.16);
+$uux-series-a: #f0801a;
+$uux-success-24: rgba(148, 191, 54, 0.24);
+$uux-success-50: rgba(148, 191, 54, 0.5);
+$uux-series-f: #990035;
+$uux-warning: #ffcc00;
+$uux-success-30: rgba(148, 191, 54, 0.3);
+$uux-success-8: rgba(148, 191, 54, 0.08);
+$primary: $uux-primary;
+$secondary: $uux-base-bg;
+$component-border: $uux-gray-400;
+$body-bg: $uux-bg-color;
+$body-text: $uux-text-color;
+$primary-button-border: $uux-primary-button-border;
+$primary-button-bg: $uux-primary-button-bg;
+$primary-button-text: $uux-component-text-white;
+$button-border: $uux-secondary-button-border;
+$button-bg: $uux-secondary-button-bg;
+$button-text: $uux-base-text;
+$primary-button-gradient: null;
+$button-gradient: null;
+
+$border-radius: 4px;
+$button-border-radius: 4px;
+
+$uux-typography: (
+  upload-small-text: (
+    font-family: 'Roboto',
+    font-size: 11px,
+    font-weight: normal,
+    line-height: 100%,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  drawer-text: (
+    font-family: 'Roboto',
+    font-size: 19.200000762939453px,
+    font-weight: normal,
+    line-height: 24px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  base-text-underline: (
+    font-family: 'Roboto',
+    font-size: 16px,
+    font-weight: normal,
+    line-height: 24px,
+    text-decoration: underline,
+    text-transform: none,
+  ),
+  tooltip: (
+    font-family: 'Roboto',
+    font-size: 14px,
+    font-weight: normal,
+    line-height: 21px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  layout-helper: (
+    font-family: 'Roboto',
+    font-size: 10px,
+    font-weight: normal,
+    line-height: 15.960000038146973px,
+    text-decoration: none,
+    text-transform: uppercase,
+  ),
+  agenda: (
+    font-family: 'Roboto',
+    font-size: 14px,
+    font-weight: bold,
+    line-height: 28px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  bold: (
+    font-family: 'Roboto',
+    font-size: 12px,
+    font-weight: bold,
+    line-height: 20px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  badge-text: (
+    font-family: 'Roboto',
+    font-size: 12px,
+    font-weight: normal,
+    line-height: 14px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  drawer-tool-bar-title: (
+    font-family: 'Roboto',
+    font-size: 17px,
+    font-weight: bold,
+    line-height: 38px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  agenda-uppercase: (
+    font-family: 'Roboto',
+    font-size: 14px,
+    font-weight: normal,
+    line-height: 28px,
+    text-decoration: none,
+    text-transform: uppercase,
+  ),
+  base-text-bold: (
+    font-family: 'Roboto',
+    font-size: 16px,
+    font-weight: bold,
+    line-height: 24px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  italic: (
+    font-family: 'Roboto',
+    font-size: 12px,
+    font-weight: normal,
+    line-height: 20px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  dialog-header-title: (
+    font-family: 'Roboto',
+    font-size: 20px,
+    font-weight: normal,
+    line-height: 30px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  list-item-text: (
+    font-family: 'Roboto',
+    font-size: 14px,
+    font-weight: normal,
+    line-height: 24px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  header-6: (
+    font-family: 'Roboto',
+    font-size: 12px,
+    font-weight: normal,
+    line-height: 15.960000038146973px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  header-1: (
+    font-family: 'Roboto',
+    font-size: 28px,
+    font-weight: 300,
+    line-height: 37.2400016784668px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  header-4: (
+    font-family: 'Roboto',
+    font-size: 12px,
+    font-weight: bold,
+    line-height: 15.960000038146973px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  tile-layout-header-text: (
+    font-family: 'Roboto',
+    font-size: 20px,
+    font-weight: 500,
+    line-height: 24px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  scheduler-event: (
+    font-family: 'Roboto',
+    font-size: 14px,
+    font-weight: normal,
+    line-height: 17px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  base-text-uppercase: (
+    font-family: 'Roboto',
+    font-size: 16px,
+    font-weight: normal,
+    line-height: 24px,
+    text-decoration: none,
+    text-transform: uppercase,
+  ),
+  calendar-week-days: (
+    font-family: 'Roboto',
+    font-size: 14px,
+    font-weight: normal,
+    line-height: 28px,
+    text-decoration: none,
+    text-transform: uppercase,
+  ),
+  display-3: (
+    font-family: 'Roboto',
+    font-size: 56px,
+    font-weight: 300,
+    line-height: 67.19999694824219px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  hint-text: (
+    font-family: 'Roboto',
+    font-size: 12px,
+    font-weight: normal,
+    line-height: 18px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  display-4: (
+    font-family: 'Roboto',
+    font-size: 42px,
+    font-weight: 300,
+    line-height: 50.400001525878906px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  header-2: (
+    font-family: 'Roboto',
+    font-size: 19px,
+    font-weight: normal,
+    line-height: 25.270000457763672px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  display-2: (
+    font-family: 'Roboto',
+    font-size: 70px,
+    font-weight: 300,
+    line-height: 84px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  base-text: (
+    font-family: 'Roboto',
+    font-size: 16px,
+    font-weight: normal,
+    line-height: 24px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  header-5: (
+    font-family: 'Roboto',
+    font-size: 12px,
+    font-weight: normal,
+    line-height: 15.960000038146973px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  small: (
+    font-family: 'Roboto',
+    font-size: 12px,
+    font-weight: normal,
+    line-height: 20px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  check-box-text: (
+    font-family: 'Roboto',
+    font-size: 16px,
+    font-weight: normal,
+    line-height: 18px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  display-1: (
+    font-family: 'Roboto',
+    font-size: 84px,
+    font-weight: 300,
+    line-height: 100.80000305175781px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+  header-3: (
+    font-family: 'Roboto',
+    font-size: 14px,
+    font-weight: bold,
+    line-height: 18.6200008392334px,
+    text-decoration: none,
+    text-transform: none,
+  ),
+);
+
+@mixin typography-classes ($typography) {
+  @each $selector, $property in $typography {
+    &-#{$selector} {
+      @each $propName, $propValue in $property {
+        #{$propName}: $propValue;
+      }
+    }
+  }
+}
+
+%uux-typography {
+  @include typography-classes($uux-typography);
+}
+$uux-effects: (
+  button-group-solid-focused: (
+    box-shadow: (0px 0px 0px 3px rgba(228, 231, 235, 0.5)),
+        ),
+  cell-top: (
+    box-shadow: (inset 0px 1px 0px rgba(222, 226, 230, 1)),
+        ),
+  cell-top-right: (
+    box-shadow: (inset -1px 1px 0px rgba(222, 226, 230, 1)),
+        ),
+  drawer-item-focused: (
+    box-shadow: (inset 0px 0px 0px 2px rgba(0, 0, 0, 0.15000000596046448)),
+        ),
+  palette-tile-selected: (
+    box-shadow: (0px 1px 3px 1px rgba(0, 0, 0, 0.30000001192092896)),
+        ),
+  cell-top-bottom: (
+    box-shadow: (inset 0px -1px 0px rgba(222, 226, 230, 1), inset 0px 1px 0px rgba(222, 226, 230, 1)),
+        ),
+  cell-left-right: (
+    box-shadow: (inset 1px 0px 0px rgba(222, 226, 230, 1), inset -1px 0px 0px rgba(222, 226, 230, 1)),
+        ),
+  primary-focused: (
+    box-shadow: (0px 0px 0px 3px rgba(13, 110, 253, 0.5)),
+        ),
+  fab-focused: (
+    box-shadow: (0px 2px 4px rgba(0, 0, 0, 0.20000000298023224), 0px 4px 5px rgba(0, 0, 0, 0.23999999463558197), 0px 1px 10px rgba(0, 0, 0, 0.2199999988079071)),
+        ),
+  cell-bottom: (
+    box-shadow: (inset 0px -1px 0px rgba(222, 226, 230, 1)),
+        ),
+  chip-info-focused: (
+    box-shadow: (0px 0px 0px 3px rgba(13, 202, 240, 0.1599999964237213)),
+        ),
+  handle-normal: (
+    box-shadow: (0px 1px 4px rgba(0, 0, 0, 0.5)),
+        ),
+  button-group-flat-focused: (
+    box-shadow: (inset 0px 0px 0px 2px rgba(33, 37, 41, 0.11999999731779099)),
+        ),
+  chip-focused: (
+    box-shadow: (0px 0px 0px 3px rgba(33, 37, 41, 0.1599999964237213)),
+        ),
+  cell-left-top-right: (
+    box-shadow: (inset 1px 1px 0px rgba(222, 226, 230, 1), inset -1px 0px 0px rgba(222, 226, 230, 1)),
+        ),
+  palette-tile-hover-focus: (
+    box-shadow: (0px 1px 3px 1px rgba(0, 0, 0, 0.5)),
+        ),
+  chip-error-focused: (
+    box-shadow: (0px 0px 0px 3px rgba(220, 53, 69, 0.1599999964237213)),
+        ),
+  cell-right: (
+    box-shadow: (inset -1px 0px 0px rgba(222, 226, 230, 1)),
+        ),
+  tree-view-item-selected-focus: (
+    box-shadow: (0px 0px 0px 2px rgba(13, 110, 253, 0.5)),
+        ),
+  notification-drop-shadow: (
+    box-shadow: (0px 4px 5px rgba(0, 0, 0, 0.03999999910593033), 0px 2px 4px rgba(0, 0, 0, 0.029999999329447746)),
+        ),
+  tree-view-item-focused: (
+    box-shadow: (inset 0px 0px 0px 2px rgba(222, 226, 230, 1)),
+        ),
+  navigation-button-focused: (
+    box-shadow: (inset 0px 0px 0px 3px rgba(228, 231, 235, 0.5)),
+        ),
+  handle-hover-focus: (
+    box-shadow: (0px 1px 4px rgba(0, 0, 0, 1)),
+        ),
+  focused: (
+    box-shadow: (0px 0px 0px 4px rgba(13, 110, 253, 0.25)),
+        ),
+  list-item-focused: (
+    box-shadow: (inset 0px 0px 0px 3px rgba(33, 37, 41, 0.1599999964237213)),
+        ),
+  floating-action-button: (
+    box-shadow: (0px 3px 5px -1px rgba(0, 0, 0, 0.20000000298023224), 0px 1px 18px rgba(0, 0, 0, 0.11999999731779099), 0px 6px 10px rgba(0, 0, 0, 0.14000000059604645)),
+        ),
+  cell-left-top: (
+    box-shadow: (inset 1px 1px 0px rgba(222, 226, 230, 1)),
+        ),
+  breadcrumb-item-focused: (
+    box-shadow: (inset 0px 0px 0px 3px rgba(33, 37, 41, 0.25)),
+        ),
+  cell-left: (
+    box-shadow: (inset 1px 0px 0px rgba(222, 226, 230, 1)),
+        ),
+  shadow: (
+    box-shadow: (0px 3px 2px rgba(0, 0, 0, 0.23999999463558197)),
+        ),
+  cell-right-bottom-left: (
+    box-shadow: (inset 1px -1px 0px rgba(222, 226, 230, 1), inset -1px 0px 0px rgba(222, 226, 230, 1)),
+        ),
+  grouping-footer-cell-focused: (
+    box-shadow: (inset 0px 0px 0px 2px rgba(0, 0, 0, 0.07999999821186066)),
+        ),
+  cell-left-top-right-bottom: (
+    box-shadow: (inset 1px 1px 0px rgba(222, 226, 230, 1), inset -1px -1px 0px rgba(222, 226, 230, 1)),
+        ),
+  invalid: (
+    box-shadow: (0px 0px 0px 3px rgba(220, 53, 69, 0.25)),
+        ),
+  secondary-focused: (
+    box-shadow: (0px 0px 0px 3px rgba(228, 231, 235, 0.5)),
+        ),
+  cell-right-bottom: (
+    box-shadow: (inset -1px -1px 0px rgba(222, 226, 230, 1)),
+        ),
+  chip-success-focused: (
+    box-shadow: (0px 0px 0px 3px rgba(25, 135, 84, 0.1599999964237213)),
+        ),
+  chip-warning-focused: (
+    box-shadow: (0px 0px 0px 3px rgba(255, 193, 7, 0.1599999964237213)),
+        ),
+  cell-bottom-left: (
+    box-shadow: (inset 1px -1px 0px rgba(222, 226, 230, 1)),
+        ),
+);
+
+@mixin effects-classes ($effects) {
+  @each $selector, $property in $effects {
+    &-#{$selector} {
+      @each $propName, $propValue in $property {
+        #{$propName}: $propValue;
+      }
+    }
+  }
+}
+
+%uux-effects {
+  @include effects-classes($uux-effects);
+}

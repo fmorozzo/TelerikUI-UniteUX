@@ -15,7 +15,8 @@
     "@progress/kendo-datasource-vue-wrapper": "^2017.3.1026",
     "@progress/kendo-grid-vue-wrapper": "^2017.3.1026",
     "@progress/kendo-ui": "^2017.3.1026",
-    "vue": "^2.5.2"
+    "vue": "^2.5.2",
+    "kendoui-elia-primary-hellrot": "file:./kendoui-elia-primary-hellrot"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.5",

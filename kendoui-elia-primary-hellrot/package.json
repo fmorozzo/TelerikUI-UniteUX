@@ -1,0 +1,8 @@
+{
+  "name": "KendoUI-elia-primary-hellrot",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@progress/kendo-theme-bootstrap": "4.42.0"
+  }
+}
